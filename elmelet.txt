@@ -75,3 +75,30 @@ A tömb adatszerkezet --> array
 
 Azonos típusú adatokból többet tárolunk, az egyes adatokat a sorszámukkal azonodítjuk hasonló mint
 pythonban a lista, de ez nem bõvíthetõ vagyis statikus az elemek száma
+
+Tömb létrehozása a new kulcsszóval történik (példányosítunk), meg kell adnunk a maximális elemszámot!
+
+pl.:
+int[] nums = new int[5];
+
+Ez egy 5 elemû egész számokat tartalmazó tömb lesz
+
+Az elemek sorszámozása a 0 index-el kezdõdik. Az utolsó index 1-el kevesebb mint az elemszám
+ha ettõl nagyobb index-re próbálunk hivatkozni System.IndexOutOfRangeException kivételt vált ki.
+
+A tömbhöz szorosan kötõdik a for ciklus
+
+Felépítése:
+
+for (int i = 0; i < length; i++)		// CIKLUS FEJ i A CIKLUSVÁLTOZÓ (i MINT index) 
+{
+										// CIKLUSMAG - EZT ISMÉTLI A CILUS
+}
+
+A TÖMB BEJÁRÁSA HA NINCS SZÜKSÉGÜNK AZ INDEXRE TÖRTÉNHET A foreach UTASÍTÁSSAL
+
+foreach (int num in nums)
+{
+	Console.Write(num + ", ");			// A CIKLUSMAGBAN A num-OT HASZNÁLJUK FEL AMI MINDEN ITERÁCIÓ SORÁN 
+										// FELVESZI A TÖMB KÖVETKEZÕ ELEMÉNEK AZ ÉRTÉKÉT
+}
