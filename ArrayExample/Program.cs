@@ -22,8 +22,8 @@ namespace ArrayExample
             // AZ ADATOK BEKÉRÉSE CIKLUSSAL
             for (int i = 0; i < 5; i++)                                 // 5 SZÁMOT BEKÉRŐ CIKLUS
             {
-                Console.Write($"Kérem a(z) {i + 1}. elemet \\-$ ");     // LISTA ELEMEINEK BEKÉRÉSE
-                nums[i] = int.Parse(Console.ReadLine());                // ELTÁROLÁS A nums LISTÁBA
+                Console.Write($"Kérem a(z) {i + 1}. elemet \\-$ ");     // BEKÉRŐ SZÖVEG MEGJELENÍTÉSE
+                nums[i] = int.Parse(Console.ReadLine());                // ADAT BEOLVASÁSA ELTÁROLÁS A nums LISTÁBA
             }
 
 
