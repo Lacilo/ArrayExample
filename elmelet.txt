@@ -1,0 +1,77 @@
+Console.ReadKey() használata
+	egy billengyût azonosít be (amit lenyomtak)
+	
+	Console.Key osztály segíti a beazonosítást
+	
+	
+	
+switch case szerkezet
+	egy érték alapján több ágú elágazást valósít meg
+	
+	a switch után adjuk az értéket pl változóban
+	
+	a case után kezejük egyes eseteket
+	
+	a case ágat break;-el le kell zárni
+	
+	
+
+eljárás írása
+	hasonló a pythonhoz
+	
+	kell név, és paraméterlista
+	
+	de nem jelzi külön szó hogy eljárást írunk (nincs pl def)
+	
+	az eljárás neve elé a void szót írjuk jelezve hogy nincs visszatérési érték
+	
+
+
+Formázott kiírás
+	a c# tutorialban megvan a teljes anyag
+	
+	mi a tizedes értéket vettük / tanultuk 
+	
+	pl {változó}:F2
+	
+	F betû jelzi hogy fix tizedes helyet használunk
+	
+	és az f utáni szám a tizedesek helyek számát jelzi
+	
+	
+	
+Refaktorálás
+	kód egy részét kiszervezzük külön függvénybe vagy eljárásba
+	
+	a így a kód rövidebb, áttekinthetõbb, a kiszervezett rész újra felhasználható
+	
+
+
+Javaslat
+	A hét sornál hosszabb kódok esetén érdemes megfontolni a refaktorálást
+	
+
+
+A Visual Studio automatizálja a refaktorálást
+
+
+
+A Static kulcsszó használata
+	A c# oop nyelv
+	
+	az objektumok futásidõben jönnek létre
+	
+	az objektum minden tulajdonsága, változói függvényei onnantól érhetõk el hogy elindítjuk a programot
+	és példányosítunk
+	
+	ha az osztályban lévõ változókat függvényeket kódolási idõben szeretnénk használni akkor ezt külön
+	jeleznünk kell 
+	
+	erre szolgál a static kulcsszó
+	
+
+
+A tömb adatszerkezet --> array
+
+Azonos típusú adatokból többet tárolunk, az egyes adatokat a sorszámukkal azonodítjuk hasonló mint
+pythonban a lista, de ez nem bõvíthetõ vagyis statikus az elemek száma
